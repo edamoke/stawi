@@ -1,0 +1,1 @@
+UPDATE products SET stock = 50, is_active = true WHERE slug = 'black-wash-bag';
