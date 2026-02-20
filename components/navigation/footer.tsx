@@ -9,16 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12 sm:mb-16">
           {/* Brand - Updated from TREVOR to SULHAAFRIKA Logo */}
           <div className="col-span-2 lg:col-span-1">
-            <div className="relative w-40 h-10 mb-4">
-              <Image
-                src="/images/logo.png"
-                alt="SULHAAFRIKA"
-                fill
-                className="object-contain object-left brightness-0 invert"
-              />
+            <div className="relative w-40 h-10 mb-4 text-2xl font-bold tracking-widest text-white">
+              STAWI
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-xs">
-              Premium leather bags for the modern individual. African craftsmanship meets timeless elegance.
+              Premium Stawi cosmetics and beauty products. African excellence in skincare and beauty.
             </p>
             <div className="flex space-x-3">
               <a
