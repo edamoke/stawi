@@ -21,9 +21,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "SULHAAFRIKA - Premium Leather Bags Collection",
+  title: "StawiAFRIKA - Cosmetics and Beuty products Collection",
   description:
-    "Discover the Ngozi Collection from Sulhaafrika - handcrafted premium leather bags including sling bags, side bags, and crossbody bags",
+    "Discover Stawi - handcrafted African cosmetics and beauty products. Pure, natural, and sustainable skincare from the heart of Kenya.",
   generator: "v0.app",
   icons: {
     icon: "/icon.svg",

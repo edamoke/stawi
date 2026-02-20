@@ -24,4 +24,4 @@ SET settings = settings - 'ipn_id'
 WHERE id = 'pesapal_settings';
 
 -- 3. Ensure profiles are correctly set up (fixing possible null is_admin)
-UPDATE public.profiles SET is_admin = true WHERE email = 'sulhaafrika2025@gmail.com';
+UPDATE public.profiles SET is_admin = true WHERE email = 'Stawiafrika2025@gmail.com';

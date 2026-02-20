@@ -6,94 +6,22 @@ export const maxDuration = 30
 
 const fallbackProducts = [
   {
-    id: "ngozi-1",
-    name: "Brown Sling Bag",
-    slug: "brown-sling-bag",
-    price: 8500,
-    description: "Classic brown leather sling bag, perfect for everyday use",
-    image_url: "/brown-leather-sling-bag.jpg",
-    category: "Sling Bags",
+    id: "stawi-1",
+    name: "Radiance Facial Oil",
+    slug: "radiance-facial-oil",
+    price: 3500,
+    description: "Pure botanical facial oil for a natural glow",
+    image_url: "/products/facial-oil.jpg",
+    category: "Skincare",
   },
   {
-    id: "ngozi-2",
-    name: "Black Sling Bag",
-    slug: "black-sling-bag",
-    price: 8500,
-    description: "Sleek black leather sling bag for a modern look",
-    image_url: "/black-leather-sling-bag.jpg",
-    category: "Sling Bags",
-  },
-  {
-    id: "ngozi-3",
-    name: "Brown and White Sling Bag",
-    slug: "brown-white-sling-bag",
-    price: 9500,
-    description: "Two-tone brown and white leather sling bag",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Sling Bags",
-  },
-  {
-    id: "ngozi-4",
-    name: "Black and White Sling Bag",
-    slug: "black-white-sling-bag",
-    price: 9500,
-    description: "Stylish black and white leather sling bag",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Sling Bags",
-  },
-  {
-    id: "ngozi-5",
-    name: "Maxi Black Side Bag",
-    slug: "maxi-black-side-bag",
-    price: 12500,
-    description: "Large black leather side bag with ample storage",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Side Bags",
-  },
-  {
-    id: "ngozi-6",
-    name: "Maxi Brown Side Bag",
-    slug: "maxi-brown-side-bag",
-    price: 12500,
-    description: "Large brown leather side bag for work and travel",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Side Bags",
-  },
-  {
-    id: "ngozi-7",
-    name: "Mini Black Side Bag",
-    slug: "mini-black-side-bag",
-    price: 7500,
-    description: "Compact black leather side bag for essentials",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Side Bags",
-  },
-  {
-    id: "ngozi-8",
-    name: "Mini Brown Side Bag",
-    slug: "mini-brown-side-bag",
-    price: 7500,
-    description: "Compact brown leather side bag for on-the-go",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Side Bags",
-  },
-  {
-    id: "ngozi-9",
-    name: "Black Cross Body Bag",
-    slug: "black-cross-body-bag",
-    price: 9800,
-    description: "Elegant black leather crossbody bag",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Cross Body Bags",
-  },
-  {
-    id: "ngozi-10",
-    name: "Brown Cross Body Bag",
-    slug: "brown-cross-body-bag",
-    price: 9800,
-    description: "Classic brown leather crossbody bag",
-    image_url: "/placeholder.svg?height=600&width=450",
-    category: "Cross Body Bags",
+    id: "stawi-2",
+    name: "Shea Body Butter",
+    slug: "shea-body-butter",
+    price: 2800,
+    description: "Deeply moisturizing raw shea butter blend",
+    image_url: "/products/body-butter.jpg",
+    category: "Body Care",
   },
 ]
 
@@ -133,13 +61,13 @@ export async function POST(req: Request) {
 
     const currentOffers = `
 CURRENT OFFERS:
-- Free Nairobi delivery on orders over KSh 15,000
-- 10% off first order with code SULHA10
+- Free Nairobi delivery on orders over KSh 5,000
+- 10% off first order with code Stawi10
 - M-Pesa and PayPal accepted
-- New Ngozi Collection arrivals get 15% discount for first week
+- New Glow Collection arrivals get 15% discount for first week
 `
 
-    const systemPrompt = `You are Sulhaafrika's AI Style Assistant, a helpful and knowledgeable consultant for Sulhaafrika, a premium African leather bag brand specializing in the Ngozi Collection - handcrafted leather bags including sling bags, side bags, and crossbody bags.
+    const systemPrompt = `You are Stawi's AI Beauty Consultant, a helpful and knowledgeable expert for Stawi, a premium African cosmetics and beauty brand specializing in the Glow Collection - handcrafted botanical skincare and beauty products.
 
 PRODUCT CATALOG:
 ${productCatalog}
@@ -147,24 +75,23 @@ ${productCatalog}
 ${currentOffers}
 
 BRAND INFO:
-- Sulhaafrika is a premium leather bag brand handcrafted in Africa
-- Known for the Ngozi Collection featuring sling bags, side bags, and crossbody bags
-- All pieces are made from high-quality leather with African craftsmanship
-- We value sustainability, quality materials, and timeless design
-- "Ngozi" means leather/skin in Swahili
+- Stawi is a premium beauty brand handcrafted in Kenya using African botanicals
+- Known for the Glow Collection featuring skincare, haircare, and body care
+- All products are natural, sustainable, and ethically sourced
+- We value purity, effective natural ingredients, and African heritage
 
-LEATHER CARE TIPS:
-- Store bags in dust bags when not in use
-- Apply leather conditioner every 3-6 months
-- Avoid direct sunlight and moisture
-- Clean with a soft, dry cloth
+SKINCARE TIPS:
+- Cleanse twice daily with lukewarm water
+- Apply serums on damp skin for better absorption
+- Always use sun protection
+- Store products in a cool, dry place
 
 YOUR RESPONSIBILITIES:
-1. Help customers find the perfect leather bag for their needs
-2. Provide styling advice and outfit recommendations
-3. Answer questions about products, leather quality, and care
+1. Help customers find the perfect beauty products for their skin type
+2. Provide skincare routines and product recommendations
+3. Answer questions about ingredients, product benefits, and usage
 4. Inform about current offers and promotions
-5. Be warm, helpful, and embody the elegant African craftsmanship of the brand
+5. Be warm, helpful, and embody the pure, natural essence of the brand
 
 RESPONSE FORMAT:
 - Keep responses concise but helpful (2-4 sentences max for simple queries)

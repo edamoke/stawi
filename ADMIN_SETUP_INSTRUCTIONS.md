@@ -12,7 +12,7 @@ This error occurs because there are **no users** in the Supabase Auth database y
 2. Navigate to **Authentication** → **Users**
 3. Click **Add User** → **Create new user**
 4. Enter:
-   - Email: `admin@sulhaafrika.co.ke` (or your preferred email)
+   - Email: `admin@Stawiafrika.co.ke` (or your preferred email)
    - Password: Choose a strong password
    - Auto Confirm User: **Check this box** ✓
 5. Click **Create User**
@@ -34,7 +34,7 @@ Run this SQL in the Supabase SQL Editor (replace with actual user details):
 
 UPDATE profiles 
 SET is_admin = true 
-WHERE email = 'newemail@sulhaafrika.co.ke';
+WHERE email = 'newemail@Stawiafrika.co.ke';
 ```
 
 ## Verification

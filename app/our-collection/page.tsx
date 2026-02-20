@@ -242,7 +242,7 @@ export default function OurCollectionPage() {
       <section className="relative h-[50vh] min-h-[400px] overflow-hidden">
         <Image
           src={headerContent.image}
-          alt={`Sulhaafrika ${headerContent.title} ${headerContent.subtitle}`}
+          alt={`Stawiafrika ${headerContent.title} ${headerContent.subtitle}`}
           fill
           className="object-cover"
           priority

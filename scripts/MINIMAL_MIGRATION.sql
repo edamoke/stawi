@@ -73,10 +73,10 @@ CREATE POLICY "Public Read Hero" ON public.hero_slides FOR SELECT USING (TRUE);
 CREATE POLICY "Admin All" ON public.products FOR ALL USING (is_admin = TRUE);
 
 -- 6. INITIAL DATA
-INSERT INTO public.categories (name, slug) VALUES ('Bags', 'bags'), ('Scents', 'scents');
+INSERT INTO public.categories (name, slug) VALUES ('Skincare', 'skincare'), ('Scents', 'scents');
 
 INSERT INTO public.hero_slides (heading, subheading, image_url) 
-VALUES ('Sulhaafrika', 'Handcrafted Excellence', '/products/brownmaxiside.jpg');
+VALUES ('Stawiafrika', 'Handcrafted Excellence', '/products/brownmaxiside.jpg');
 
 -- 7. AUTH TRIGGER
 CREATE OR REPLACE FUNCTION public.handle_new_user()

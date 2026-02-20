@@ -37,7 +37,7 @@ async function runMigration() {
     
     console.log('---------------------------------------------------------')
     console.log('MIGRATION SUCCESSFUL!')
-    console.log('All tables created and Sulhaafrika data seeded.')
+    console.log('All tables created and Stawiafrika data seeded.')
     console.log('---------------------------------------------------------')
 
   } catch (err) {

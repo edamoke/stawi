@@ -162,7 +162,7 @@ export default function AdminLoginPage() {
             <h1 className="text-2xl font-serif text-white tracking-wider mb-2">
               {isSignUp ? "CREATE ADMIN ACCOUNT" : "ADMIN PORTAL"}
             </h1>
-            <p className="text-sm text-[#A09A94]">Sulhaafrika Management</p>
+            <p className="text-sm text-[#A09A94]">Stawiafrika Management</p>
           </div>
 
           {/* Google OAuth Button */}
@@ -211,7 +211,7 @@ export default function AdminLoginPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="admin@sulhaafrika.co.ke"
+                placeholder="admin@Stawiafrika.co.ke"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

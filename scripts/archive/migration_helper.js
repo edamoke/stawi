@@ -23,7 +23,7 @@ async function migrate() {
     '004_admin_setup.sql',
     '005_seed_hero_slides.sql',
     '006_add_more_products.sql',
-    '010_sulhaafrika_setup.sql',
+    '010_Stawiafrika_setup.sql',
     '011_fix_admin_auth.sql',
     '012_create_cms_tables.sql',
     '013_create_events_tables.sql',

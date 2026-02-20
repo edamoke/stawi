@@ -27,7 +27,7 @@ async function updateHeroSlides() {
   const slides = [
     {
       image_url: "/images/image.png",
-      alt: "Sulha Afrika Leather Collection",
+      alt: "Stawi Afrika Leather Collection",
       heading: "The Ngozi Collection",
       subheading: "Handcrafted Excellence",
       description: "Experience the finest African leather craftsmanship.",

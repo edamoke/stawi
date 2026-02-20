@@ -26,7 +26,7 @@ export default function DiaryPage() {
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/IMG_4419(1) (Custom).jpg"
-          alt="Sulha Afrika Heritage"
+          alt="Stawi Heritage"
           fill
           className="object-cover"
           priority
@@ -38,7 +38,7 @@ export default function DiaryPage() {
             Who We Are
           </h1>
           <p className="text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto opacity-90">
-            Welcome to Sulha Afrika, the genuine African solution. We are your premier source for exquisite, sustainable genuine leather bags, accessories, and indigenous shoes.
+            Welcome to Stawi, the genuine African beauty solution. We are your premier source for exquisite, sustainable botanical cosmetics and beauty products.
           </p>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function DiaryPage() {
                   Did you know that Indigenous African cultures never needed words like "sustainability" or "circular economy"? Why?—it was simply a way of life. Guided by these time-honored traditions, where nothing was wasted, we blend ancient practices with modern innovations to offer eco-conscious solutions.
                 </p>
                 <p>
-                  Founded by Fatuma Ali, a petroleum and natural gas engineer turned social entrepreneur, Sulha Afrika bridges heritage and sustainability. Our products, crafted from livestock hides and fish skins, reduce waste while empowering communities, particularly women and youth.
+                  Founded by Fatuma Ali, a petroleum and natural gas engineer turned social entrepreneur, Stawi bridges heritage and sustainability. Our products, crafted from African botanicals and natural ingredients, reduce waste while empowering communities, particularly women and youth.
                 </p>
                 <p>
-                  Sulha, meaning "solution" in Swahili, reflects our mission to address environmental challenges through thoughtful design.
+                  Stawi, meaning "solution" in Swahili, reflects our mission to address environmental challenges through thoughtful design and pure, natural beauty products.
                 </p>
               </div>
             </div>
@@ -87,21 +87,21 @@ export default function DiaryPage() {
                 <Zap className="w-8 h-8 text-[#8B4513]" />
               </div>
               <h3 className="text-2xl font-serif font-bold">Our Mission</h3>
-              <p className="text-[#5C5450]">To sustainably elevate your style while celebrating the African heritage</p>
+              <p className="text-[#5C5450]">To sustainably elevate your beauty while celebrating African heritage</p>
             </div>
             <div className="bg-white/80 backdrop-blur-sm p-12 rounded-lg shadow-sm border border-[#E8E4DE] text-center space-y-6">
               <div className="w-16 h-16 bg-[#F5F3F0]/80 rounded-full flex items-center justify-center mx-auto">
                 <Award className="w-8 h-8 text-[#8B4513]" />
               </div>
               <h3 className="text-2xl font-serif font-bold">Our Vision</h3>
-              <p className="text-[#5C5450]">To become a global sustainable and attainable African brand</p>
+              <p className="text-[#5C5450]">To become a global sustainable and attainable African beauty brand</p>
             </div>
             <div className="bg-white/80 backdrop-blur-sm p-12 rounded-lg shadow-sm border border-[#E8E4DE] text-center space-y-6">
               <div className="w-16 h-16 bg-[#F5F3F0]/80 rounded-full flex items-center justify-center mx-auto">
                 <Recycle className="w-8 h-8 text-[#8B4513]" />
               </div>
               <h3 className="text-2xl font-serif font-bold">Our Goal</h3>
-              <p className="text-[#5C5450]">To do value addition on raw hides and skins from livestock and fishing industries into high-quality and circular genuine leather products</p>
+              <p className="text-[#5C5450]">To transform raw African botanicals and natural ingredients into high-quality, sustainable beauty products that nourish your skin and soul.</p>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function DiaryPage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "Consultancy", desc: "Guiding you through the leather value chain—from planning to execution and market entry." },
+              { title: "Consultancy", desc: "Guiding you through the natural beauty value chain—from ethical sourcing to market-ready products." },
               { title: "Corporate Branding & Gifting", desc: "Creating sustainable, thoughtful gifts that leave a lasting impression." },
               { title: "Outsourcing", desc: "Connecting you with skilled artisans for high-quality production tailored to your needs." },
               { title: "Private Labeling", desc: "Crafting custom solutions that reflect your brand vision." },
@@ -204,9 +204,9 @@ export default function DiaryPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <h2 className="font-serif text-2xl tracking-[0.15em] mb-6">SULHAAFRIKA</h2>
+              <h2 className="font-serif text-2xl tracking-[0.15em] mb-6">Stawi</h2>
               <p className="text-sm text-white/70 leading-relaxed mb-6">
-                Premium leather bags handcrafted with African excellence. Each piece tells a story of timeless elegance
+                Cosmetics and Beauty products handcrafted with African excellence. Each piece tells a story of timeless elegance
                 and superior craftsmanship.
               </p>
               <div className="flex gap-4">
@@ -227,18 +227,18 @@ export default function DiaryPage() {
               <h4 className="text-xs tracking-[0.2em] mb-6">SHOP</h4>
               <ul className="space-y-3 text-sm text-white/70">
                 <li>
-                  <Link href="/our-collection?category=sling-bags" className="hover:text-white transition-colors">
-                    Sling Bags
+                  <Link href="/our-collection?category=skincare" className="hover:text-white transition-colors">
+                    Skincare
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-collection?category=side-bags" className="hover:text-white transition-colors">
-                    Side Bags
+                  <Link href="/our-collection?category=haircare" className="hover:text-white transition-colors">
+                    Haircare
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-collection?category=crossbody-bags" className="hover:text-white transition-colors">
-                    Cross Body Bags
+                  <Link href="/our-collection?category=body-care" className="hover:text-white transition-colors">
+                    Body Care
                   </Link>
                 </li>
                 <li>
@@ -260,7 +260,7 @@ export default function DiaryPage() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
-                    Care Guide
+                    Usage Guide
                   </a>
                 </li>
                 <li>
@@ -286,18 +286,18 @@ export default function DiaryPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  +254 700 000 000
+                  +254 794 015 756
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  hello@sulhaafrika.com
+                  info@stawi.ke
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-white/50">© 2025 Sulhaafrika. All rights reserved.</p>
+            <p className="text-xs text-white/50">© 2025 Stawi. All rights reserved.</p>
             <div className="flex gap-6 text-xs text-white/50">
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy

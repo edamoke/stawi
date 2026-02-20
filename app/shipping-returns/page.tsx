@@ -12,13 +12,13 @@ export default function ShippingReturnsPage() {
           <section>
             <h2 className="text-2xl font-serif mb-4">Shipping Information</h2>
             <div className="prose prose-stone text-[#6B6560]">
-              <p>All SULHA AFRIKA products are handcrafted with care and shipped from our workshop in Nairobi, Kenya. We partner with reliable independent courier services to ensure your items reach you safely.</p>
+              <p>All Stawi AFRIKA products are handcrafted with care and shipped from our workshop in Nairobi, Kenya. We partner with reliable independent courier services to ensure your items reach you safely.</p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
                 <li><strong>Local Delivery (Nairobi):</strong> 1-2 business days</li>
                 <li><strong>Regional Delivery (Kenya):</strong> 3-5 business days</li>
                 <li><strong>International Shipping:</strong> 7-14 business days depending on destination</li>
               </ul>
-              <p className="mt-4 italic">Please note: Sulha Afrika shall bear no responsibility for delivery delays, misdeliveries, or losses once goods have been dispatched to the courier service.</p>
+              <p className="mt-4 italic">Please note: Stawi Afrika shall bear no responsibility for delivery delays, misdeliveries, or losses once goods have been dispatched to the courier service.</p>
             </div>
           </section>
 
@@ -36,7 +36,7 @@ export default function ShippingReturnsPage() {
           </section>
 
           <section className="border-t border-[#E8E4DE] pt-8">
-            <p className="text-sm text-[#6B6560]">For any inquiries regarding your order, please contact us at <a href="mailto:info@sulhaafrika.com" className="underline hover:text-[#C9A86C]">info@sulhaafrika.com</a></p>
+            <p className="text-sm text-[#6B6560]">For any inquiries regarding your order, please contact us at <a href="mailto:info@Stawiafrika.com" className="underline hover:text-[#C9A86C]">info@Stawiafrika.com</a></p>
           </section>
         </div>
       </main>

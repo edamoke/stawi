@@ -85,9 +85,9 @@ export function UserDashboard({ user, profile, wishlists, orders, tryons }: User
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-[#E8E4DE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
-            {/* Logo - Updated from TREVOR to SULHAAFRIKA */}
+            {/* Logo - Updated from TREVOR to StawiAFRIKA */}
             <Link href="/" className="flex-shrink-0">
-              <h1 className="text-xl sm:text-2xl font-serif tracking-[0.2em] text-[#2C2420]">SULHAAFRIKA</h1>
+              <h1 className="text-xl sm:text-2xl font-serif tracking-[0.2em] text-[#2C2420]">StawiAFRIKA</h1>
             </Link>
 
             {/* Center Nav */}
@@ -236,7 +236,7 @@ export function UserDashboard({ user, profile, wishlists, orders, tryons }: User
             <div className="space-y-6 sm:space-y-8">
               <div>
                 <h1 className="text-2xl sm:text-3xl font-serif mb-2">Dashboard</h1>
-                <p className="text-[#6B6560]">Manage your account and explore your leather collection.</p>
+                <p className="text-[#6B6560]">Manage your account and explore your beauty collection.</p>
               </div>
 
               {/* Stats Cards */}

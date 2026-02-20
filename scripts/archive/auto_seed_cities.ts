@@ -11,7 +11,7 @@ async function seed() {
       slug: "lamu",
       description: "A UNESCO World Heritage site where time stands still and the essence of Swahili culture is preserved in every stone.",
       culture: "Lamu is the oldest and best-preserved Swahili settlement in East Africa, maintaining its traditional functions. Built in coral stone and mangrove timber, the town is characterized by the simplicity of structural forms enriched by such features as inner courtyards, verandas, and elaborately carved wooden doors.",
-      leather_history: "The Wangozi people of the Lamu archipelago were renowned for their exquisite leather craftsmanship, a tradition that has influenced Sulha Afrika's commitment to heritage and quality.",
+      leather_history: "The Wangozi people of the Lamu archipelago were renowned for their exquisite leather craftsmanship, a tradition that has influenced Stawi Afrika's commitment to heritage and quality.",
       hero_image: "/images/IMG_4416(1) (Custom).jpg",
       hero_sentence: "DISCOVER HERITAGE",
       display_order: 1,

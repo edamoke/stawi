@@ -38,7 +38,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       <aside className="hidden lg:flex lg:w-64 lg:flex-col lg:fixed lg:inset-y-0 bg-background border-r">
         <div className="flex items-center h-16 px-6 border-b">
           <Link href="/admin" className="text-xl font-bold">
-            Sulhaafrika Admin
+            Stawiafrika Admin
           </Link>
         </div>
         <nav className="flex-1 space-y-1 px-3 py-4">
@@ -77,7 +77,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
           <SheetContent side="left" className="w-64">
             <div className="py-4">
               <Link href="/admin" className="text-xl font-bold px-3">
-                Sulhaafrika Admin
+                Stawiafrika Admin
               </Link>
             </div>
             <nav className="space-y-1 mt-4">
@@ -97,7 +97,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
             </nav>
           </SheetContent>
         </Sheet>
-        <span className="ml-4 text-lg font-bold">Sulhaafrika Admin</span>
+        <span className="ml-4 text-lg font-bold">Stawiafrika Admin</span>
       </div>
 
       {/* Main Content */}

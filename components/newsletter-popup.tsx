@@ -14,7 +14,7 @@ export function NewsletterPopup() {
 
   useEffect(() => {
     // Check if user has already seen or closed the popup
-    const hasSeenPopup = localStorage.getItem("sulha_newsletter_seen")
+    const hasSeenPopup = localStorage.getItem("Stawi_newsletter_seen")
     
     if (!hasSeenPopup) {
       const timer = setTimeout(() => {
@@ -27,7 +27,7 @@ export function NewsletterPopup() {
 
   const handleClose = () => {
     setIsOpen(false)
-    localStorage.setItem("sulha_newsletter_seen", "true")
+    localStorage.setItem("Stawi_newsletter_seen", "true")
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -63,7 +63,7 @@ export function NewsletterPopup() {
         <div className="hidden md:block w-5/12 relative min-h-[400px]">
           <Image
             src="/images/IMG_4410(2) (Custom).jpg"
-            alt="Sulhaafrika Collection"
+            alt="Stawiafrika Collection"
             fill
             className="object-cover"
           />

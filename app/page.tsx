@@ -21,17 +21,17 @@ import { MainNav } from "@/components/navigation/main-nav"
 import { createClient } from "@/lib/supabase/client"
 
 const FALLBACK_CITIES = [
-  {
-    id: "lamu",
-    name: "Lamu",
-    slug: "lamu",
-    city_experiences: [
-      { id: "e1", image_url: "/products/chestbags.jpg", title: "Experience" },
-      { id: "e2", image_url: "/products/brownmaxiside.jpg", title: "Experience" },
-      { id: "e3", image_url: "/products/cardholders1.jpg", title: "Experience" },
-      { id: "e4", image_url: "/products/IMG_4398 (Custom).jpg", title: "Experience" }
-    ]
-  },
+      {
+        id: "lamu",
+        name: "Lamu",
+        slug: "lamu",
+        city_experiences: [
+          { id: "e1", image_url: "/products/facial-oil.jpg", title: "Experience" },
+          { id: "e2", image_url: "/products/body-butter.jpg", title: "Experience" },
+          { id: "e3", image_url: "/products/serum.jpg", title: "Experience" },
+          { id: "e4", image_url: "/products/cleanser.jpg", title: "Experience" }
+        ]
+      },
   {
     id: "diani",
     name: "Diani",
@@ -158,7 +158,7 @@ export default function Home() {
       <section ref={selectedSectionRef} className="py-12 sm:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
-            {/* Ngozi Collection */}
+            {/* Glow Collection */}
             <Link href="/our-collection" className="block">
               <div className="parallax-block relative h-[425px] sm:h-[530px] md:h-[640px] overflow-hidden group cursor-pointer rounded-lg">
                 <video
@@ -174,7 +174,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-6 text-center">
                   <span className="text-xs tracking-[0.4em] mb-4 opacity-90 uppercase font-medium">Selected</span>
                   <h4 className="text-3xl sm:text-4xl font-serif mb-6 tracking-wider uppercase">
-                    Ngozi Collection
+                    Glow Collection
                   </h4>
                   <span className="inline-flex items-center gap-2 text-xs tracking-[0.2em] border-b border-white/50 pb-1 group-hover:border-white transition-colors uppercase font-semibold">
                     Explore Collection <ArrowRight className="w-4 h-4" />
@@ -183,7 +183,7 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Sulha Scents */}
+            {/* Stawi Scents */}
             <Link href="/our-collection?category=scents" className="block">
               <div className="parallax-block relative h-[425px] sm:h-[530px] md:h-[640px] overflow-hidden group cursor-pointer rounded-lg">
                 <video
@@ -199,7 +199,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-6 text-center">
                   <span className="text-xs tracking-[0.4em] mb-4 opacity-90 uppercase font-medium">Selected</span>
                   <h4 className="text-3xl sm:text-4xl font-serif mb-6 tracking-wider uppercase">
-                    Sulha Scents
+                    Stawi Scents
                   </h4>
                   <span className="inline-flex items-center gap-2 text-xs tracking-[0.2em] border-b border-white/50 pb-1 group-hover:border-white transition-colors uppercase font-semibold">
                     Discover Scents <ArrowRight className="w-4 h-4" />
@@ -300,13 +300,13 @@ export default function Home() {
               <div className="relative w-40 h-10 mb-6">
                 <Image
                   src="/images/logo.png"
-                  alt="SULHAAFRIKA"
+                  alt="Stawi"
                   fill
                   className="object-contain brightness-0 invert"
                 />
               </div>
               <p className="text-sm text-white/70 leading-relaxed mb-6">
-                Premium leather bags handcrafted with African excellence. Each piece tells a story of timeless elegance
+                Cosmetics and Beauty products handcrafted with African excellence. Each piece tells a story of timeless elegance
                 and superior craftsmanship.
               </p>
               <div className="flex gap-4">
@@ -318,9 +318,9 @@ export default function Home() {
             <div>
               <h4 className="text-xs tracking-[0.2em] mb-6">SHOP</h4>
               <ul className="space-y-3 text-sm text-white/70">
-                <li><Link href="/our-collection?category=sling-bags" className="hover:text-white transition-colors">Sling Bags</Link></li>
-                <li><Link href="/our-collection?category=side-bags" className="hover:text-white transition-colors">Side Bags</Link></li>
-                <li><Link href="/our-collection?category=crossbody-bags" className="hover:text-white transition-colors">Cross Body Bags</Link></li>
+                <li><Link href="/our-collection?category=skincare" className="hover:text-white transition-colors">Skincare</Link></li>
+                <li><Link href="/our-collection?category=haircare" className="hover:text-white transition-colors">Haircare</Link></li>
+                <li><Link href="/our-collection?category=body-care" className="hover:text-white transition-colors">Body Care</Link></li>
                 <li><Link href="/our-collection" className="hover:text-white transition-colors">All Products</Link></li>
               </ul>
             </div>
@@ -328,7 +328,7 @@ export default function Home() {
               <h4 className="text-xs tracking-[0.2em] mb-6">HELP</h4>
               <ul className="space-y-3 text-sm text-white/70">
                 <li><Link href="/shipping-returns" className="hover:text-white transition-colors">Shipping & Returns</Link></li>
-                <li><Link href="/care-guide" className="hover:text-white transition-colors">Care Guide</Link></li>
+                <li><Link href="/care-guide" className="hover:text-white transition-colors">Usage Guide</Link></li>
                 <li><Link href="/size-guide" className="hover:text-white transition-colors">Size Guide</Link></li>
                 <li><Link href="/faq" className="hover:text-white transition-colors">FAQs</Link></li>
               </ul>
@@ -338,13 +338,13 @@ export default function Home() {
               <p className="text-sm text-white/70 mb-4">For inquiries about our products, please reach out to us at:</p>
               <ul className="space-y-3 text-sm text-white/70">
                 <li className="flex items-center gap-2"><Phone className="w-4 h-4" />+254 794 015 756</li>
-                <li className="flex items-center gap-2"><Mail className="w-4 h-4" />info@sulhaafrika.com</li>
+                <li className="flex items-center gap-2"><Mail className="w-4 h-4" />info@stawi.ke</li>
                 <li className="flex items-center gap-2 pt-2"><MapPin className="w-4 h-4" />Nairobi, Kenya</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-white/50">© 2025 Sulhaafrika. All rights reserved.</p>
+            <p className="text-xs text-white/50">© 2025 Stawi. All rights reserved.</p>
             <div className="flex gap-6 text-xs text-white/50">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

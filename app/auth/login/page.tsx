@@ -90,7 +90,7 @@ export default function LoginPage() {
       <div className="hidden lg:block lg:w-1/2 relative">
         <Image
           src="/placeholder.svg?height=1200&width=800"
-          alt="Sulhaafrika Leather Bags"
+          alt="Stawiafrika Leather Bags"
           fill
           className="object-cover"
           priority
@@ -99,7 +99,7 @@ export default function LoginPage() {
         <div className="absolute inset-0 bg-black/30" />
         <div className="absolute bottom-12 left-12 text-white">
           <h2 className="text-4xl font-serif mb-2">Welcome Back</h2>
-          <p className="text-white/80 text-sm">Sign in to access your Sulhaafrika account</p>
+          <p className="text-white/80 text-sm">Sign in to access your Stawiafrika account</p>
         </div>
       </div>
 
@@ -112,7 +112,7 @@ export default function LoginPage() {
 
           <div className="text-center mb-8">
             <Link href="/">
-              <h1 className="text-2xl font-serif tracking-[0.2em] mb-2">SULHAAFRIKA</h1>
+              <h1 className="text-2xl font-serif tracking-[0.2em] mb-2">StawiAFRIKA</h1>
             </Link>
             <p className="text-sm text-[#6B6560]">Sign in to your account</p>
           </div>

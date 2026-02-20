@@ -18,7 +18,7 @@
 
 1. Navigate to: **`/admin/setup`** in your browser
 2. Enter your details:
-   - Email: `admin@sulhaafrika.co.ke` (or your preferred email)
+   - Email: `admin@Stawiafrika.co.ke` (or your preferred email)
    - Password: Choose a strong password
    - Full Name: Your name
 3. Click "Create Admin Account"
@@ -32,7 +32,7 @@
 1. Go to your Supabase Dashboard → **Authentication** → **Users**
 2. Click **"Add User"** → **"Create new user"**
 3. Fill in:
-   - Email: `admin@sulhaafrika.co.ke`
+   - Email: `admin@Stawiafrika.co.ke`
    - Password: Your strong password
    - **✓ Check "Auto Confirm User"**
 4. Click **"Create User"** and copy the User ID

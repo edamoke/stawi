@@ -22,9 +22,9 @@ import {
 import { ChevronDown } from "lucide-react"
 
 const shopSubItems = [
-  { label: "NGOZI COLLECTION", href: "/our-collection?view=collections" },
+  { label: "GLOW COLLECTION", href: "/our-collection?view=collections" },
   { label: "SENSATIONS", href: "/events" },
-  { label: "SULHA SCENTS", href: "/our-collection?category=scents" },
+  { label: "Stawi SCENTS", href: "/our-collection?category=scents" },
 ]
 
 const navItems = [
@@ -196,7 +196,7 @@ export function MainNav({ variant = "solid", activeItem, showPromoBanner = true 
                 className="flex items-center gap-3 text-[#2C2420] hover:text-[#8B4513] transition-colors w-full"
               >
                 <ShoppingBag className="w-5 h-5" />
-                <span className="text-sm tracking-wider">BAG ({totalItems})</span>
+                <span className="text-sm tracking-wider">CART ({totalItems})</span>
               </button>
             </div>
           </div>
@@ -226,7 +226,7 @@ export function MainNav({ variant = "solid", activeItem, showPromoBanner = true 
               }`}>
                 <Image
                   src="/images/logo.png"
-                  alt="SULHAAFRIKA"
+                  alt="Stawi"
                   fill
                   className={`object-contain transition-all duration-500 ${isTransparent ? "brightness-0 invert" : ""}`}
                   priority

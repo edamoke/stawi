@@ -233,10 +233,10 @@ CREATE POLICY "Admin manage hero_slides" ON public.hero_slides FOR ALL USING (EX
 
 -- 7. DATA SEEDING
 INSERT INTO public.categories (name, slug, description) VALUES
-('Sling Bags', 'sling-bags', 'Compact leather sling bags'),
-('Side Bags', 'side-bags', 'Spacious leather side bags'),
-('Crossbody Bags', 'crossbody-bags', 'Versatile crossbody bags'),
-('Scents', 'scents', 'Sulha Scents collection');
+('Skincare', 'skincare', 'Premium African botanical skincare'),
+('Haircare', 'haircare', 'Natural oils and treatments for healthy hair'),
+('Body Care', 'body-care', 'Luxurious body butters and exfoliants'),
+('Scents', 'scents', 'Stawi Signature Scents collection');
 
 INSERT INTO public.cities (name, slug, description, display_order) VALUES 
 ('Lamu', 'lamu', 'UNESCO World Heritage site', 1),
@@ -245,8 +245,8 @@ INSERT INTO public.cities (name, slug, description, display_order) VALUES
 ('Zanzibar', 'zanzibar', 'The Spice Island', 4);
 
 INSERT INTO public.hero_slides (heading, subheading, description, image_url, alt, position, active) VALUES
-('The Ngozi Collection', 'Handcrafted Excellence', 'Experience the finest African leather craftsmanship.', '/products/brownmaxiside.jpg', 'Leather Bag', 1, TRUE),
-('Sulha Scents', 'Aromatic Journey', 'Discover the essence of East Africa.', '/products/cardholders1.jpg', 'Scents', 2, TRUE);
+('The Glow Collection', 'Natural Radiance', 'Experience the finest African botanical beauty.', '/products/skincare-hero.jpg', 'Cosmetics and Beauty Products', 1, TRUE),
+('Stawi Scents', 'Aromatic Journey', 'Discover the essence of East Africa.', '/products/scents-hero.jpg', 'Scents', 2, TRUE);
 
 INSERT INTO public.site_settings (key, value)
 VALUES ('pesapal_settings', '{"is_sandbox": true}'::jsonb);

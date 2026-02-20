@@ -65,7 +65,7 @@ export async function POST(req: NextRequest) {
     let ipnId = settings?.ipn_id || "2bcc3954-3acc-4715-bf4d-dab92684d0f5";
     console.log("Using IPN ID:", ipnId);
 
-    const appUrl = "https://www.sulhaafrika.com";
+    const appUrl = "https://www.Stawiafrika.com";
     const callbackUrl = `${appUrl}/api/payments/pesapal/callback`;
 
     // Phone formatting
@@ -86,7 +86,7 @@ export async function POST(req: NextRequest) {
       callback_url: callbackUrl,
       notification_id: ipnId,
       billing_address: {
-        email_address: billingDetails?.email || "guest@sulhaafrika.com",
+        email_address: billingDetails?.email || "guest@Stawiafrika.com",
         phone_number: phone,
         country_code: "KE",
         first_name: (billingDetails?.firstName || "Guest").substring(0, 30),

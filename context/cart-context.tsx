@@ -112,7 +112,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   // Load cart from localStorage on mount
   useEffect(() => {
-    const savedCart = localStorage.getItem("sulhaafrika-cart")
+    const savedCart = localStorage.getItem("Stawiafrika-cart")
     if (savedCart) {
       try {
         const parsedCart = JSON.parse(savedCart)
@@ -125,7 +125,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   // Save cart to localStorage on change
   useEffect(() => {
-    localStorage.setItem("sulhaafrika-cart", JSON.stringify(state.items))
+    localStorage.setItem("Stawiafrika-cart", JSON.stringify(state.items))
   }, [state.items])
 
   const addItem = (item: CartItem) => {

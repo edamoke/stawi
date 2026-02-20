@@ -36,11 +36,11 @@ export default async function AdminSettingsPage() {
             <div className="grid gap-4 md:grid-cols-2">
               <div className="space-y-2">
                 <Label htmlFor="storeName">Store Name</Label>
-                <Input id="storeName" defaultValue="Sulhaafrika" />
+                <Input id="storeName" defaultValue="Stawiafrika" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="storeEmail">Contact Email</Label>
-                <Input id="storeEmail" type="email" defaultValue="hello@sulhaafrika.co.ke" />
+                <Input id="storeEmail" type="email" defaultValue="hello@Stawiafrika.co.ke" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="currency">Currency</Label>

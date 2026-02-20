@@ -48,7 +48,7 @@ CREATE POLICY "Admins can manage blocks" ON public.content_blocks FOR ALL USING 
 
 -- Seed Initial "Selected" Section
 INSERT INTO public.content_sections (section_key, section_type, title, subtitle, display_order)
-VALUES ('homepage-selected', 'flexible_grid', 'Selected Section', 'NGOZI COLLECTION & SULHA SCENTS', 1)
+VALUES ('homepage-selected', 'flexible_grid', 'Selected Section', 'NGOZI COLLECTION & Stawi SCENTS', 1)
 ON CONFLICT (section_key) DO NOTHING;
 
 -- Seed Blocks for the section
@@ -69,7 +69,7 @@ SELECT
   id, 
   1, 2, 2, 
   '/beautiful-black-african-woman-model-elegant-resort.jpg', 
-  'SULHA SCENTS', 
+  'Stawi SCENTS', 
   '/our-collection?category=scents', 
   'Discover Scents',
   1

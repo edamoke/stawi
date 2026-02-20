@@ -26,7 +26,7 @@ export function AIChatCompanion() {
       id: "welcome",
       role: "assistant",
       content:
-        "Hello! I'm Sulhaafrika's Style Assistant. I can help you find the perfect leather bag from our Ngozi Collection, answer questions about products, leather care tips, or current offers. What are you looking for today?",
+        "Hello! I'm Stawi's AI Beauty Consultant. I can help you find the perfect natural beauty products from our Glow Collection, answer questions about skincare routines, ingredients, or current offers. How can I help you radiance today?",
     },
   ])
   const [input, setInput] = useState("")
@@ -101,7 +101,7 @@ export function AIChatCompanion() {
     }
   }
 
-  const quickPrompts = ["Show me sling bags", "What's on sale?", "Leather care tips", "Help me find a crossbody bag"]
+  const quickPrompts = ["Show me skincare", "What's on sale?", "Skincare rituals", "Help me find a serum"]
 
   return (
     <>
@@ -130,7 +130,7 @@ export function AIChatCompanion() {
               <Sparkles className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-serif text-lg">Sulhaafrika Assistant</h3>
+              <h3 className="font-serif text-lg">Stawi Beauty Assistant</h3>
               <p className="text-xs text-white/70">AI-powered style help</p>
             </div>
           </div>
@@ -231,7 +231,7 @@ export function AIChatCompanion() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask about bags, leather care, or offers..."
+              placeholder="Ask about skincare, rituals, or offers..."
               className="flex-1 bg-[#FAF8F5] border-0 rounded-full px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#8B4513]/50 placeholder:text-[#8B8178]"
               disabled={isLoading}
             />

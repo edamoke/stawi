@@ -1,4 +1,4 @@
--- Sulhaafrika Database Setup
+-- Stawiafrika Database Setup
 -- Creates tables, categories, and leather bag products for the Ngozi Collection
 
 -- Enable UUID extension

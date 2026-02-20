@@ -24,8 +24,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-medium text-[#2C2420] mb-1">Email</h3>
-                  <p className="text-[#6B6560]">sulhaafrika2025@gmail.com</p>
-                  <p className="text-[#6B6560]">info@sulhaafrika.com</p>
+                  <p className="text-[#6B6560]">Stawiafrika2025@gmail.com</p>
+                  <p className="text-[#6B6560]">info@Stawiafrika.com</p>
                 </div>
               </div>
 

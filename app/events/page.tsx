@@ -123,7 +123,7 @@ export default function EventsPage() {
         <div className="relative z-10 text-center text-white px-4 max-w-4xl">
           <span className="text-xs tracking-[0.4em] mb-4 block uppercase font-medium animate-fade-in">HANDCRAFTED IN AFRICA</span>
           <h1 className="text-5xl md:text-7xl font-serif mb-8 tracking-wider animate-fade-in-up">
-            Sensations by Sulha Afrika
+            Sensations by Stawi Afrika
           </h1>
           <p className="text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto opacity-90 animate-fade-in-up delay-200">
              Immerse yourself in one of a kind ticketed experience that brings you into living landscapes through guided nature encounters, indigenous knowledge, regenerative practices, and curated moments rooted in place, culture, and craft.
@@ -262,13 +262,13 @@ export default function EventsPage() {
               <div className="relative w-40 h-10 mb-6">
                  <Image 
                    src="/images/logo.png" 
-                   alt="SULHAAFRIKA" 
+                   alt="StawiAFRIKA" 
                    fill 
                    className="object-contain brightness-0 invert" 
                  />
               </div>
               <p className="text-sm text-white/70 leading-relaxed mb-6">
-                Premium leather bags handcrafted with African excellence. Each piece tells a story of timeless elegance
+                Cosmetics and Beuty products handcrafted with African excellence. Each piece tells a story of timeless elegance
                 and superior craftsmanship.
               </p>
               <div className="flex gap-4">
@@ -352,14 +352,14 @@ export default function EventsPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  hello@sulhaafrika.com
+                  hello@Stawiafrika.com
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-white/50">© 2025 Sulhaafrika. All rights reserved.</p>
+            <p className="text-xs text-white/50">© 2025 Stawiafrika. All rights reserved.</p>
             <div className="flex gap-6 text-xs text-white/50">
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy
