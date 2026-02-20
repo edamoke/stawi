@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="bg-[#2C2420] text-white relative">
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12 sm:mb-16">
-          {/* Brand - Updated from TREVOR to SULHAAFRIKA Logo */}
+          {/* Brand - Updated from TREVOR to StawiAFRIKA Logo */}
           <div className="col-span-2 lg:col-span-1">
             <div className="relative w-40 h-10 mb-4 text-2xl font-bold tracking-widest text-white">
               STAWI
@@ -92,8 +92,8 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0 text-[#8B4513]" />
                 <div className="flex flex-col">
-                  <span>sulhaafrika2025@gmail.com</span>
-                  <span>info@sulhaafrika.com</span>
+                  <span>Stawiafrika2025@gmail.com</span>
+                  <span>info@Stawiafrika.com</span>
                 </div>
               </li>
             </ul>
@@ -121,7 +121,7 @@ export function Footer() {
 
         {/* Bottom - Updated copyright */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/40 text-center sm:text-left">© 2025 Sulhaafrika. All Rights Reserved.</p>
+          <p className="text-xs text-white/40 text-center sm:text-left">© 2025 Stawiafrika. All Rights Reserved.</p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs text-white/40">
             <a href="#" className="hover:text-white/70 transition-colors">
               Privacy Policy
